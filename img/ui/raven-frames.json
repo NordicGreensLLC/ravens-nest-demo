@@ -1,0 +1,330 @@
+{
+  "source": "/workspace/ravensnest/raven-sheet-v2.jpg",
+  "frameCount": 10,
+  "cell": {
+    "width": 380,
+    "height": 380
+  },
+  "sheet": {
+    "width": 3800,
+    "height": 380,
+    "layout": "horizontal"
+  },
+  "anchor": {
+    "x": 209.27737051834148,
+    "y": 316.71068931814284,
+    "note": "feet for idle/jump/land; body core for flight; all placed at this cell point"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "id": "idle-look-ahead",
+      "kind": "idle",
+      "label": "Perched, head in profile looking ahead",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "feet"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 134.553,
+        "core_cy": 128.627,
+        "inradius": 49.194,
+        "core_area": 6429,
+        "core_h": 156,
+        "core_w": 127,
+        "foot_x": 155.5,
+        "foot_y": 248,
+        "anchor_type": "feet",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 1,
+      "id": "idle-head-turn",
+      "kind": "idle",
+      "label": "Perched, head turned slightly toward the viewer",
+      "rect": {
+        "x": 380,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "feet"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 138.473,
+        "core_cy": 128.476,
+        "inradius": 49.732,
+        "core_area": 6437,
+        "core_h": 158,
+        "core_w": 130,
+        "foot_x": 160.5,
+        "foot_y": 248,
+        "anchor_type": "feet",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 2,
+      "id": "idle-look-up",
+      "kind": "idle",
+      "label": "Perched, more upright, head lifted",
+      "rect": {
+        "x": 760,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "feet"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 131.501,
+        "core_cy": 146.479,
+        "inradius": 47.988,
+        "core_area": 5985,
+        "core_h": 118,
+        "core_w": 134,
+        "foot_x": 157.5,
+        "foot_y": 256,
+        "anchor_type": "feet",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 3,
+      "id": "jump-takeoff",
+      "kind": "jump",
+      "label": "Jump / takeoff, wings opening, one foot lifting",
+      "rect": {
+        "x": 1140,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "feet"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 160.672,
+        "core_cy": 104.792,
+        "inradius": 45.769,
+        "core_area": 7891,
+        "core_h": 117,
+        "core_w": 174,
+        "foot_x": 189.0,
+        "foot_y": 231,
+        "anchor_type": "feet",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 4,
+      "id": "fly-wings-up",
+      "kind": "fly",
+      "label": "Flight, wings raised",
+      "rect": {
+        "x": 1520,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "body-mapped-to-ground"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 128.528,
+        "core_cy": 172.785,
+        "inradius": 45.338,
+        "core_area": 8583,
+        "core_h": 166,
+        "core_w": 169,
+        "foot_x": 163.5,
+        "foot_y": 311,
+        "anchor_type": "body-mapped-to-ground",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 5,
+      "id": "fly-wings-mid-up",
+      "kind": "fly",
+      "label": "Flight, wings mid-up",
+      "rect": {
+        "x": 1900,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "body-mapped-to-ground"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 119.609,
+        "core_cy": 141.356,
+        "inradius": 39.178,
+        "core_area": 7668,
+        "core_h": 134,
+        "core_w": 140,
+        "foot_x": 87.0,
+        "foot_y": 250,
+        "anchor_type": "body-mapped-to-ground",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 6,
+      "id": "fly-wings-spread",
+      "kind": "fly",
+      "label": "Flight, wings swept / spread",
+      "rect": {
+        "x": 2280,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "body-mapped-to-ground"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 150.211,
+        "core_cy": 127.652,
+        "inradius": 40.147,
+        "core_area": 7199,
+        "core_h": 112,
+        "core_w": 200,
+        "foot_x": 120.0,
+        "foot_y": 220,
+        "anchor_type": "body-mapped-to-ground",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 7,
+      "id": "fly-wings-mid-down",
+      "kind": "fly",
+      "label": "Flight, downstroke / wings mid-down",
+      "rect": {
+        "x": 2660,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "body-mapped-to-ground"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 154.788,
+        "core_cy": 94.622,
+        "inradius": 42.197,
+        "core_area": 8022,
+        "core_h": 133,
+        "core_w": 135,
+        "foot_x": 160.5,
+        "foot_y": 234,
+        "anchor_type": "body-mapped-to-ground",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 8,
+      "id": "fly-wings-down",
+      "kind": "fly",
+      "label": "Flight, wings down",
+      "rect": {
+        "x": 3040,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "body-mapped-to-ground"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 161.004,
+        "core_cy": 94.89,
+        "inradius": 40.578,
+        "core_area": 7966,
+        "core_h": 136,
+        "core_w": 137,
+        "foot_x": 182.5,
+        "foot_y": 235,
+        "anchor_type": "body-mapped-to-ground",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    },
+    {
+      "index": 9,
+      "id": "landing",
+      "kind": "land",
+      "label": "Landing, wings flared, feet reaching down",
+      "rect": {
+        "x": 3420,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "anchor": {
+        "x": 209.27737051834148,
+        "y": 316.71068931814284,
+        "type": "feet"
+      },
+      "scale": 1.0,
+      "metrics": {
+        "core_cx": 144.176,
+        "core_cy": 146.55,
+        "inradius": 43.984,
+        "core_area": 8607,
+        "core_h": 139,
+        "core_w": 157,
+        "foot_x": 182.0,
+        "foot_y": 277,
+        "anchor_type": "feet",
+        "idle_body_dx": -22.027,
+        "idle_body_dy": -119.373
+      }
+    }
+  ]
+}
